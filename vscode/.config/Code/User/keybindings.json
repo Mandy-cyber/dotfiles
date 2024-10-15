@@ -1,0 +1,11 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+down ctrl+down",
+        "command": "autoScroll.enable"
+    },
+    {
+        "key": "ctrl+up ctrl+up",
+        "command": "autoScroll.disable"
+    }
+]
