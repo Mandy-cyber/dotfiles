@@ -4,7 +4,10 @@
 	email = acm.rodriques@gmail.com
 [pull]
 	rebase = false
+[push]
+	autoSetupRemote = true
 [core]
 	editor = nvim
+	excludesFile = ~/.gitignore
 [init]
 	defaultBranch = main
