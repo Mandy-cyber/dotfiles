@@ -1,0 +1,10 @@
+[user]
+	mail = acm.rodriques@gmail.com
+	name = Mandy-cyber (Laptop)
+	email = acm.rodriques@gmail.com
+[pull]
+	rebase = false
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
