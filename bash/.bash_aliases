@@ -4,7 +4,7 @@ alias bye='shutdown -r now'
 alias sleep='systemctl suspend'
 
 # VPN
-alias start-vpn='$CODE/Scripts/start_vpn.sh $1'
+alias start-vpn='$HOME/start_vpn.sh $1'
 alias whereami='nordvpn status'
 
 # DOTFILES

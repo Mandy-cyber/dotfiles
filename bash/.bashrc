@@ -10,10 +10,12 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+# on startup
+neofetch
+start-vpn
+
 # COMMAND PROMPT
 # generator: https://bash-prompt-generator.org/
-# PROMPT_COMMAND='PS1_CMD1=$(git branch 2>/dev/null | grep '"'"'*'"'"' | colrm 1 2)'; PS1='\[\e[38;5;183;1m\][\[\e[4m\]${VIRTUAL_ENV:+venv}\[\e[24m\]]\[\e[0m\] | \[\e[38;5;183;1m\][\[\e[38;5;183;4m\]${PS1_CMD1}\[\e[24;38;5;183m\]]\[\e[0m\] | \[\e[38;5;225;1m\]\@\[\e[0m\] | \[\e[38;5;225;2m\]\u\[\e[38;5;225m\]@\[\e[38;5;225m\]\h\[\e[0m\] | \[\e[38;5;251;3m\]\W\[\e[0m\] ❤️  '
-
 PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\[\e[38;5;183;1m\][\[\e[38;5;183;4m\]${PS1_CMD1}\[\e[24;38;5;183m\]]\[\e[0m\] | \[\e[38;5;225;1m\]\@\[\e[0m\] | \[\e[38;5;225;2m\]\u\[\e[0m\] | \[\e[38;5;251;3m\]\W\[\e[0m\] ❤️  '
 
 # ENV VARIABLES
