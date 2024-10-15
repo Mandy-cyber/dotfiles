@@ -1,0 +1,51 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "vscode-pets.position": "explorer",
+    "vscode-pets.petSize": "large",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.editorAssociations": {
+        "*.db": "sqlite-viewer.option"
+    },
+    "liveshare.notebooks.allowGuestExecuteCells": true,
+    "git.openRepositoryInParentFolders": "never",
+    "jupyter.askForKernelRestart": false,
+    "redhat.telemetry.enabled": false,
+    "files.autoSave": "afterDelay",
+    "githubPullRequests.pullBranch": "never",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "files.eol": "\r\n",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "stylelint.configFile": "config/.stylelintrc.yml",
+    "stylelint.config": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": true
+          }
+    },
+    "css.validate": false,
+    "workbench.settings.editor": "json",
+    "[css]": {
+        "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "tabnine.experimentalAutoImports": true,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
