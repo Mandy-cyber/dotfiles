@@ -47,5 +47,8 @@
     "tabnine.experimentalAutoImports": true,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "githubPullRequests.terminalLinksHandler": "github",
+    "diffEditor.codeLens": true,
+    "window.zoomLevel": 1
 }
