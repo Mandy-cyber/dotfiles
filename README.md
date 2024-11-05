@@ -12,6 +12,7 @@
     - [:snake: scripts](#snake-scripts)
     - [:busts_in_silhouette: ssh](#bustsinsilhouette-ssh)
     - [:star2: vscode](#star2-vscode)
+- [:wave: See ya](#wave-see-ya)
 
 <!-- END OF MDTOC -->
 
@@ -131,12 +132,31 @@ This is what mine looks like:
 So cute right! I have the ascii art being loaded in from `ascii-art.txt` so make changes to that file to add your own!
 
 ## :computer: nvim
-
+As of `November 5th 2024` I am very sleepy, so have yet to update this section! For now you can refer to the README i wrote [here](https://github.com/Mandy-cyber/nvim-setup). Most of the information is the same, but I'll get around to updating it before the year ends (**maybe**) :heart:!
 
 ## :snake: scripts
+These files are just scripts that I use to automate some of my tasks. I have a few scripts that I use to **start my VPN**, a script that I use to **move my most recent screenshot to a folder**, and a script that I use to **generate a table of contents for my markdown files**.
 
+Feel free to keep these scripts and customize them to your liking! The `mdtoc` script actually comes from my repo [here](https://github.com/Mandy-cyber/Markdown-ToC-Generator/) if you want to check it out or contribue:sunglasses:.
 
 ## :busts_in_silhouette: ssh
 
+### config
+This is a very basic file which is more to show you how to use it, as opposed to what my actual setup is *(y'all don't need all of my info like that!)*. Here's a breakdown of what the block means:
+
+```bash
+Host github                 # defines an alias for github connections
+    Hostname github.com     # defines the hostname
+    User git                # defines the user to log in as 
+    IdentityFile ~/.ssh/id_github # defines the key to use for authentication
+```
 
 ## :star2: vscode
+All of these files are just used by vscode to determine the extensions I like, some keymappings I use frequently, common settings, etc!
+
+You'll probably end up completely overriding what I have and using your own files!
+
+# :wave: See ya
+Happy coding :heart:
+<br>
+-Mandy
