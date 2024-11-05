@@ -4,7 +4,7 @@ alias bye='shutdown -r now'
 alias sleep='systemctl suspend'
 
 # VPN
-alias start-vpn='$HOME/start_vpn.sh $1'
+alias start-vpn='$HOME/start_vpn $1'
 alias whereami='nordvpn status'
 
 # DOTFILES
@@ -38,8 +38,8 @@ alias home='cd ~'
 
 # APPS
 alias nosql='$CODE/NoSQL_Workbench.AppImage'
-alias intellij='/home/mandycyber/Downloads/idea-IU-233.15026.9/bin/idea.sh'
-alias minecraft='/home/mandycyber/Desktop/Games/minecraft-launcher'
+alias intellij='$HOME/Downloads/idea-IU-233.15026.9/bin/idea.sh'
+alias minecraft='$HOME/Desktop/Games/minecraft-launcher'
 
 # FILES & FILE EXPLORERS
 alias gtar='gunzip $1 > tar -xvf'
@@ -53,6 +53,7 @@ alias gc='git commit -m'
 alias gl='git log --oneline'
 alias gpl='git pull'
 alias git-setup='eval "$(ssh-agent -s)" && ssh-add ~/.ssh/id_github > /dev/null && clear && echo "Personal GitHub has been activated <3"'
+alias git-rename='git checkout $1 && git branch -m $2 && git push origin -u $2 && git push origin --delete $1'
 
 # VIRTUAL ENVIRONMENTS
 alias make-venv='virtualenv .venv > /dev/null && venv && echo "A virtual environment named .venv has been created & activated"'
@@ -60,7 +61,7 @@ alias venv='source .venv/bin/activate'
 alias devenv='deactivate'
 
 # QUICK SCRIPTS
-alias mdtoc='~/Desktop/Coding/Scripts/mdtoc'
+alias mdtoc='$HOME/mdtoc'
 alias mvpic='mv "$(ls -dtr1 $PICS/* | tail -1)"'
 
 # MISC

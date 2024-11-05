@@ -12,7 +12,6 @@ fi
 
 # on startup
 neofetch
-start-vpn
 
 # COMMAND PROMPT
 # generator: https://bash-prompt-generator.org/
@@ -23,9 +22,7 @@ export PATH=$PATH:/var/lib/snapd/snap/bin:~/.local/bin
 export CLASS=~/Desktop/Class-Notes
 export SPRING=~/Desktop/Class-Notes/Spring2024
 export PICS=~/Pictures/Screenshots
-export VENV=~/Desktop/Coding/venv/bin/activate
 export CODE=~/Desktop/Coding
-export SCHEME=~/Desktop/Coding/Scheme-Notes
 export EDITOR='/usr/bin/nvim'
 export VISUAL='/usr/bin/nvim'
 
